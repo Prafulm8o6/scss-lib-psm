@@ -1,6 +1,6 @@
 {
   "name": "scss-lib-psm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CSS Library",
   "main": "index.scss",
   "scripts": {
