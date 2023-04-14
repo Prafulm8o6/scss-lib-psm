@@ -9,9 +9,21 @@ npm i scss-lib-psm
 ### File Directory
 
 ```
-├─src
-|  ├─base
-|  |   ├─_base.scss
-|  ├─abstracts
-|  |   ├─_variables.scss
+src
+│
+├───abstracts
+│       _mixins.scss
+│       _variables.scss
+│
+├───base
+│       _animation.scss
+│       _base.scss
+│
+├───components
+│       _bg.scss
+│       _button.scss
+│       _card.scss
+│
+└───layout
+        _grid.scss
 ```
