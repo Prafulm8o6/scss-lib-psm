@@ -1,0 +1,35 @@
+.color{
+    &-white{
+        @include setBgColor($white);
+    }
+    &-dark{
+        @include setBgColor($black);
+    }
+    &-green{
+        @include setBgColor($green);
+    }
+    &-cyan{
+        @include setBgColor($cyan);
+    }
+    &-purple{
+        @include setBgColor($purple);
+    }
+    &-yellow{
+        @include setBgColor($yellow);
+    }
+    &-teal{
+        @include setBgColor($teal);
+    }
+    &-indigo{
+        @include setBgColor($indigo);
+    }
+    &-blue{
+        @include setBgColor($blue);
+    }
+    &-orange{
+        @include setBgColor($orange);
+    }
+    &-red{
+        @include setBgColor($red);
+    }
+}
