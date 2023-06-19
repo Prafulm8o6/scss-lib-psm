@@ -3,13 +3,14 @@
 ### Install
 
 ```
-npm i scss-lib-psm@0.1.0
+npm i scss-lib-psm@0.2.0
 ```
 
 ### File Directory
 
 ```
 src
+│   _index.scss
 │
 ├───abstracts
 │       _mixins.scss
@@ -21,8 +22,11 @@ src
 │
 ├───components
 │       _bg.scss
+│       _border.scss
 │       _button.scss
 │       _card.scss
+│       _padding.scss
+│       _text.scss
 │
 └───layout
         _grid.scss
