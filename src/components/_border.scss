@@ -1,0 +1,47 @@
+.border{
+    &{
+        border: 1px solid;
+    }
+    &-2{
+        border: 2px solid;
+    }
+    &-4{
+        border: 4px solid;
+    }
+    &-8{
+        border: 8px solid;
+    }
+    &-white{
+        @include setBorderColor($white);
+    }
+    &-dark{
+        @include setBorderColor($black);
+    }
+    &-green{
+        @include setBorderColor($green);
+    }
+    &-cyan{
+        @include setBorderColor($cyan);
+    }
+    &-purple{
+        @include setBorderColor($purple);
+    }
+    &-yellow{
+        @include setBorderColor($yellow);
+    }
+    &-teal{
+        @include setBorderColor($teal);
+    }
+    &-indigo{
+        @include setBorderColor($indigo);
+    }
+    &-blue{
+        @include setBorderColor($blue);
+    }
+    &-orange{
+        @include setBorderColor($orange);
+    }
+    &-red{
+        @include setBorderColor($red);
+    }
+}

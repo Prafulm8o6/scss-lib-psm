@@ -1,0 +1,44 @@
+.text{
+    &-white{
+        @include setTextColor($white);
+    }
+    &-dark{
+        @include setTextColor($black);
+    }
+    &-green{
+        @include setTextColor($green);
+    }
+    &-cyan{
+        @include setTextColor($cyan);
+    }
+    &-purple{
+        @include setTextColor($purple);
+    }
+    &-yellow{
+        @include setTextColor($yellow);
+    }
+    &-teal{
+        @include setTextColor($teal);
+    }
+    &-indigo{
+        @include setTextColor($indigo);
+    }
+    &-blue{
+        @include setTextColor($blue);
+    }
+    &-orange{
+        @include setTextColor($orange);
+    }
+    &-red{
+        @include setTextColor($red);
+    }
+    &-start{
+        text-align: start;
+    }
+    &-center{
+        text-align: center;
+    }
+    &-end{
+        text-align: end;
+    }
+}

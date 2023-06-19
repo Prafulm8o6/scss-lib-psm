@@ -32,4 +32,7 @@
     &-red{
         @include setBgColor($red);
     }
+    &-gray{
+        @include setBgColor($gray);
+    }
 }

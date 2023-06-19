@@ -11,3 +11,15 @@
 @mixin setBgColor($color) {
     background-color: $color;
 }
+
+// set text color
+
+@mixin setTextColor($color) {
+    color: $color;
+}
+
+// set border color
+
+@mixin setBorderColor($color) {
+    border-color: $color;
+}

@@ -1,4 +1,6 @@
 .btn {
+    border: 0px;  
+
     &:link,
     &:visited {
         text-transform: uppercase;
@@ -52,6 +54,22 @@
     &-animated{
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
+    }
+
+    &-radius-1{
+        border-radius: 5px 10px;
+    }
+
+    &-radius-2{
+        border-radius: 10px 5px;
+    }
+
+    &-radius-3{
+        border-radius: 10px 5px 5px;
+    }
+
+    &-radius-4{
+        border-radius: 5px 10px 8px;
     }
 }
 

@@ -3,7 +3,7 @@
 ### Install
 
 ```
-npm i scss-lib-psm
+npm i scss-lib-psm@0.1.0
 ```
 
 ### File Directory
