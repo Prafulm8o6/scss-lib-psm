@@ -1,0 +1,46 @@
+// Variables
+$navbar-bg: #333; // Navbar background color
+$navbar-text-color: #fff; // Navbar text color
+$navbar-hover-color: #f9f9f9; // Navbar link hover color
+$navbar-transition-duration: 0.3s; // Navbar transition duration
+$navbar-logo-width: 120px; // Width of the navbar logo
+
+// Navbar styles
+.navbar {
+    height: 40px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar-logo {
+        width: $navbar-logo-width;
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .nav-item {
+            margin-left: 20px;
+            list-style-type: none;
+            cursor: pointer;
+            
+            .nav-link {
+                text-decoration: none;
+                color: $navbar-text-color;
+                font-weight: 500;
+                transition: color $navbar-transition-duration ease;
+
+                &:hover {
+                    color: $navbar-hover-color;
+                }
+
+                &.active {
+                    color: $navbar-hover-color;
+                }
+            }
+        }
+    }
+}

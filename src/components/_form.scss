@@ -1,0 +1,23 @@
+// Variables
+$form-input-radius: 4px; // Input border radius
+$form-input-padding: 5px; // Input padding
+$form-input-focus-bg: #eaeff5; // Input background color on focus
+
+// Form styles
+form {
+  padding: 8px;
+  border-radius: $form-input-radius;
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border-radius: $form-input-radius;
+    padding: $form-input-padding;
+    transition: background-color 0.3s ease;
+
+    &:focus {
+      background-color: $form-input-focus-bg;
+      outline: none;
+    }
+  }
+}

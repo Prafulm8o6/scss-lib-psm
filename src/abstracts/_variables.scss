@@ -18,7 +18,36 @@ $gray: #eeeeeecf !default;
 
 $default-font-size: 1.6rem;
 
+// Container Variables
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
 // Grid
+$grid-columns: 12;
+$grid-gutter: 30px;
+
 $grid-width: 114rem;
 $gutter-vertical: 1rem;
 $gutter-horizontal: 1rem;
+
+// Navbar Variables
+
+$navbar-bg-color: $white;
+$navbar-text-color: $black;
+$navbar-link-color: #fff;
+$navbar-link-hover-color: #f8f9fa;
+
+// Responsive breakpoints
+
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+

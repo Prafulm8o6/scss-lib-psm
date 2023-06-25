@@ -51,6 +51,85 @@ body {
     transform: translateX(0rem);
   }
 }
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 540px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 720px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 960px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1140px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.navbar {
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar-logo {
+  width: 120px;
+}
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar .navbar-nav .nav-item {
+  margin-left: 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #f9f9f9;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #f9f9f9;
+}
+
+form {
+  padding: 8px;
+  border-radius: 4px;
+}
+form input[type=text],
+form input[type=email],
+form textarea {
+  border-radius: 4px;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+form input[type=text]:focus,
+form input[type=email]:focus,
+form textarea:focus {
+  background-color: #eaeff5;
+  outline: none;
+}
+
 .color-white {
   background-color: #fff;
 }
